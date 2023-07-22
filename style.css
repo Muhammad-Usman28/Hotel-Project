@@ -37,6 +37,12 @@ body a{
     padding: 10px 30px;
 }
 
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
 
 .wrapper {
     min-width: 200px;
