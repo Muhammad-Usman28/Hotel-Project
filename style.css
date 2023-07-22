@@ -1,0 +1,587 @@
+body {
+    background-color: azure;
+    
+}
+
+body a{
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+}
+
+.box1 {
+    margin: 100px;
+    min-height:500px;
+}
+.box1 img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.box1 h1 {
+    padding-top: 200px;
+}
+
+.box1 a {
+    color:green;
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.btn-success
+{
+    padding: 10px 30px;
+}
+
+
+.wrapper {
+    min-width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stored-info {
+    min-width: 250px;
+    padding: 40px 0px;
+    flex-wrap: wrap;
+    background-color: rgba(13, 70, 95, 0.194);
+    margin-bottom: 300px;
+    gap: 3rem;
+}
+
+.stored-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.wrapper i {
+    padding-bottom: 10px;
+}
+
+.section-wrapper {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 300px;
+    flex-wrap: flex;
+    margin-top: -50px;
+    object-fit: cover; 
+}
+
+.box {
+    width:250px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgba(13, 70, 95, 0.194);
+}
+
+.special-wrappper {
+    display: flex;
+    object-fit: cover;
+}
+
+
+.chick-steak {
+    margin-left: 125px;
+}
+
+
+.dish-box {
+    min-width: 100px;
+    min-height: 100px;
+    margin: 20px 10px;
+    box-sizing: border-box;
+    background-color: rgba(13, 70, 95, 0.194);
+    margin-bottom: 300px;
+}
+
+.dish-box,.col {
+    min-width: 200px;
+    min-height: 100px;
+}
+
+.demo-dish-outer {
+    background-color: rgba(13, 70, 95, 0.194);
+    min-width: 100px;
+    min-height: 250px;
+    margin: 20px 10px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+} 
+
+.demo-dish {
+    min-width: 100px;
+    min-height: 200px;
+    margin: 20px 10px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+.demo-dish ,img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hotel-sitting {
+    
+    min-width: 100px;
+    min-height: 500px;
+    margin: 20px 10px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+.coop-event {
+    min-width: 500px;
+    background-color: rgba(13, 70, 95, 0.194);
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.coop-event ,img {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.customer-parent ,.customer-child-coop {
+    padding-left: 10px;
+}
+
+.customer-child-coop,button {
+    text-align: center;
+}
+
+
+.container1 {
+    width: 500px;
+    background-color: rgba(13, 70, 95, 0.194);
+    height: 200px;
+    margin-bottom: 250px;
+    
+}
+
+.container1 ,img {
+    padding-left: 15px;
+    box-sizing: border-box;
+    float: left;
+    padding-right: 15px;
+}
+
+.container1 ,text,p {
+    text-align: justify;
+}
+
+
+/* Choose Food Part */
+
+.parent {
+    height: 500px;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child1 ,h2 {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.child1 ,p {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.child3 ,.decendent {
+    height: 120px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    
+}
+
+.child3 ,.decendent,img {
+    float: left;
+}
+
+.child4 ,.decendent {
+    height: 120px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.customer-parent {
+    margin-top: 100px;
+    min-width:  1024px;
+    min-height: 250px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-child {
+    min-height: 250px;
+    background-color: rgba(13, 70, 95, 0.194);
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-child ,img {
+    padding-top: 30px;
+}
+
+
+.newsletter-parent {
+    width: 1024px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.newsletter-child {
+    width: 512px;
+    height: 200px;
+    background-color: rgba(13, 70, 95, 0.194);
+}
+
+.newsletter-child ,h2 {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    margin-bottom: -70px;
+    text-align: left;
+    padding-left: 25px;
+    font-weight: normal;
+}
+
+.newsletter-child ,input[type=email1] {
+    padding: 10px 50px;
+}
+
+.end-parent {
+    min-height: 380px;
+    background-color: rgba(13, 70, 95, 0.194);
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-child {
+    min-height: 350px;
+    width: 200px;
+    padding-top: 40px;
+}
+
+.end-child ,p {
+    text-align: justify;
+}
+
+.end-child ,i {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+
+
+/*  Menue Page */
+
+.headings,h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.special-parent {
+    width: 1024px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.special-child {
+    width: 500px;
+    height: 250px;
+    background-color: rgba(129, 119, 104, 0.317);
+    margin: 15px;
+}
+
+.special-child ,img {
+    float: left;
+}
+
+.text,h4 {
+    padding-top: 15px;
+}
+
+text ,img {
+    padding-top: -100px;
+}
+
+.top-dish-parent {
+    width: 1024px;
+    height: 250px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-dish-child {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(129, 119, 104, 0.317);
+}
+
+.top-dish-child ,h5 {
+    padding-top: 15px;
+}
+
+.breakfast-parent {
+    width: 1024px;
+    height: 250px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.breakfast-child {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(129, 119, 104, 0.317);
+    margin-bottom: 50px;
+}
+
+.breakfast-parent1 {
+    width: 650px;
+    height: 250px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.breakfast-child1 {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(129, 119, 104, 0.317);
+    margin-bottom: 50px;
+}
+
+.Lunch-parent {
+    width: 1024px;
+    height: 250px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Lunch-child {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(129, 119, 104, 0.317);
+    margin-bottom: 50px;
+}
+
+.Lunch-parent1 {
+    width: 650px;
+    height: 250px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Lunch-child1 {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(129, 119, 104, 0.317);
+    margin-bottom: 50px;
+}
+
+.Dinner-parent {
+    width: 1024px;
+    height: 250px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dinner-child {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(129, 119, 104, 0.317);
+    margin-bottom: 50px;
+}
+
+.Dinner-parent1 {
+    width: 650px;
+    height: 250px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dinner-child1 {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(129, 119, 104, 0.317);
+    margin-bottom: 50px;
+}
+
+/* About Part */
+
+.story-parent {
+    width: 1024px;
+    height: 500px;
+    margin-top: 40px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.story-child {
+    width: 500px;
+    height: 450px;
+}
+
+.story-child ,h3 {
+    padding-top: 50px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.goal {
+    margin-bottom: 100px;
+}
+
+.chef-parent {
+    width: 1024px;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chef-child {
+    width: 500px;
+    height: 600px; 
+}
+
+/* Contact Page */
+
+.contact-inquiry ,h1 {
+    font-weight: bold;
+    margin-top: -200px;
+}
+
+.first-last-parent {
+    width: 1024px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.first-last-child {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input[type=text],[type=Email],textarea {
+    padding: 10px 150px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+    background-color: rgba(129, 119, 104, 0.317);
+}
+label {
+    font-size: large;
+    font-weight: normal;
+}
+
+.email-subject-parent {
+    width: 1024px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+.email-subject-child {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-area {
+    margin-bottom: 50px;
+}
+
+/* Book Table Part */
+
+.email-type-parent {
+    width: 1024px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+.email-type-child {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#Choose{
+    margin-left: 25px;
+    width: 470px;
+    height: 45px;
+    background-color: rgba(129, 119, 104, 0.317);
+}
+
+.guest-time-parent {
+    width: 1024px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+.guest-time-child {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#Guest {
+    width: 470px;
+    height: 45px;
+    background-color: rgba(129, 119, 104, 0.317);
+}
+
+#Time {
+    width: 470px;
+    height: 45px;
+    background-color: rgba(129, 119, 104, 0.317);
+}
+
+
+

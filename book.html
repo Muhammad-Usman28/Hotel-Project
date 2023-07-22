@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usman Restraunt</title>
+
+  <!--Google font link of Poppin -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+  <!-- This is Bootstarp CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- This is My Own CSS style Sheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font awesome Link -->
+
+  <script src="https://kit.fontawesome.com/66f5b32b09.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Navbar Code from Bootstarp-->
+ 
+
+   <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/img20.jpg" alt="Restraunt Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="menue.html">Menue</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <!-- Simple Button  -->
+            <a href="book.html"><button type="button" class="btn 
+                 btn-success">Book Table</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
+  
+
+  <!-- Book Table Part -->
+
+  <div class="container">
+
+    <div class="wrapper">
+      <div class="stored-info  rounded">
+          <i class="fa-solid fa-clock fa-3x"></i>
+          <h5 class="stored-title">10 AM - 7 PM</h5>
+          <p>Opening Hour</p>
+      </div>
+      <div class="stored-info rounded">
+          <i class="fa-solid fa-location-dot fa-3x"></i>
+          <h5 class="stored-title">Near GC Faisalabad</h5>
+          <p>Address</p>
+      </div>
+      <div class="stored-info rounded ">
+          <i class="fa-solid fa-phone fa-3x"></i>
+          <h5 class="stored-title">881005678</h5>
+          <p>Call Now</p>
+      </div>
+    
+        </div>
+    <!-- Contact inquiry Part -->
+
+    <div class="contact-inquiry ">
+      <h1>Book Table</h1>
+    </div>
+    <!--  First Name last name -->
+    <form action="#">
+      <div class="first-last-parent">
+        <div class="first-last-child">
+          <label for="first-name">First Name</label><br><br>
+          <input type="text" name="first-name" id="first-name">
+        </div>
+        <div class="first-last-child">
+          <label for="last-name">Last Name</label><br><br>
+          <input type="text" name="last-name" id="last-name">
+        </div>
+      </div>
+
+      <!-- Email and Table Part -->
+
+      <div class="email-type-parent">
+        <div class="email-type-child">
+            <label for="Email">Email</label><br><br>
+            <input type="Email" name="Email" id="email">
+
+        </div>
+        <div class="email-type-child">
+          <label for="Table Type">Table Type</label><br><br>
+          <select id="Choose">
+            <option>Choose</option>
+            <option> Small (2 Persons)</option>
+            <option> Small (4 Persons)</option>
+            <option> Small (6 Persons)</option>
+        </select>
+        </div>
+    </div>
+
+    <div class="guest-time-parent">
+      <div class="guest-time-child">
+        <label for="Guest">Guest Number</label><br><br>
+        <input type="number" name="Guest" id="Guest">
+      </div>
+      <div class="guest-time-child">
+        <label for="Time">Time</label><br><br>
+        <input type="date" name="Time" id="Time">
+      </div>
+    </div>
+
+      
+
+      <!-- Message Part -->
+      <div class="text-area">
+        <label for="Message">How Can We Help You?</label><br><br>
+        <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Let us Know what You think"></textarea>
+      </div>
+
+      <a href="book.html">
+      <button type="button" class="btn 
+         btn-success " style="margin-bottom: 50px;">Book Table</button>
+        </a>
+    </form>
+  </div>
+
+  <!-- End Part -->
+
+  <div class="end-parent">
+    <div class="end-child">
+      <img src="images/img20.jpg" alt="Restraunt Logo">
+
+      <p style="padding: 10px;"> Traditional
+        Faisalabad food to delight the
+        whole family.</p>
+
+      <h5 style="text-align: center;">FOLLOW US</h5>
+      <i class="fa-brands fa-facebook-f fa-2x"></i>
+      <i class="fa-brands fa-twitter fa-2x"></i>
+      <i class="fa-brands fa-instagram fa-2x"></i>
+      <i class="fa-brands fa-whatsapp fa-2x"></i>
+    </div>
+    <div class="end-child">
+      <h5>Links</h5>
+      <h5 class="fs-6 fw-normal">HOME</h5>
+      <h5 class="fs-6 fw-normal">MENUE</h5>
+      <h5 class="fs-6 fw-normal">BOOK TABLE</h5>
+      <h5 class="fs-6 fw-normal">ABOUT US</h5>
+      <h5 class="fs-6 fw-normal">CONTACT US</h5>
+      <h5 class="fs-6 fw-normal">PRIVACY POLICY</h5>
+    </div>
+    <div class="end-child">
+      <h5>Support</h5>
+      <h5 class="fs-6 fw-normal">CONTACT</h5>
+      <h5 class="fs-6 fw-normal">SUPPORT CENTER</h5>
+      <h5 class="fs-6 fw-normal">FEEDBACKS</h5>
+    </div>
+    <div class="end-child">
+      <h5>Contact</h5>
+      <h5 class="fs-6 fw-normal">+0888345</h5>
+      <h5 class="fs-6 fw-normal">Usman Restraunt Near GC University Faisalabad</h5>
+
+    </div>
+  </div>
+  <h5 style="padding-left: 20px;">&copy; copyright 2021 Simplicity Cuisine | All rights reserved</h5>
+
+
+</body>
+
+</html>
